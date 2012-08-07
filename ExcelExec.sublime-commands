@@ -1,0 +1,45 @@
+[
+    {
+        "caption": "Excel Exec: Execute a command in a new window",
+        "command": "excel_exec_what",
+        "args": {
+            "inline": false
+            // "path": "$PATH:/some/other/path",
+            // "shell": false,
+            // "working_dir": "",
+            // "encoding": "utf-8",
+            // "env": {},
+            // "quiet": false
+        }
+    },
+    {
+        "caption": "Excel Exec: Execute a command in this window",
+        "command": "excel_exec_what",
+        "args": {
+        	"inline": true
+        	// "path": "$PATH:/some/other/path",
+            // "shell": false,
+            // "working_dir": "",
+            // "encoding": "utf-8",
+            // "env": {},
+            // "quiet": false
+        }
+    }
+    // {
+    //     "caption": "Excel Exec: List current working directory",
+    //     "command": "excel_exec",
+    //     "args": {
+    //         "cmd": [
+    //             "ls",
+    //             "-al"
+    //         ],
+    //         "inline": false
+    //         // "path": "$PATH:/some/other/path",
+    //         // "shell": false,
+    //         // "working_dir": "",
+    //         // "encoding": "utf-8",
+    //         // "env": {},
+    //         // "quiet": true
+    //     }
+    // }
+]
